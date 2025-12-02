@@ -6,13 +6,15 @@
 /*   By: boksuz <boksuz@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 21:27:14 by boksuz            #+#    #+#             */
-/*   Updated: 2025/12/02 21:27:14 by boksuz           ###   ########.fr       */
+/*   Updated: 2025/12/02 21:57:07 by boksuz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
 
+# include "./libft/libft.h"
+# include <fcntl.h>
 # include <unistd.h>
 
 typedef	struct s_myGame
